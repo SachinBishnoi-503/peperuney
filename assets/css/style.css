@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Schoolbell&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+    font-family: schoolbell, sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+/* header property */
+.t-0 {
+    top: 0%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.background-color {
+    background-color: black;
+}
+
+.nav-items:hover {
+    color: red;
+}
+
+.nav-items {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+.py-7 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.gap-65 {
+    gap: 65px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.home-about {
+    color: white;
+    font-size: 30px;
+}
+
+.home-about:hover {
+    color: red;
+}
+
+.Home:hover {
+    color: red;
+}
+
+.home-about {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 27px;
+    color: white;
+}
+
+.Connect-walet {
+    width: 183px;
+    height: 50px;
+    border-radius: 10px;
+    color: #f4241e;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.Connect-walet:hover {
+    background-color: #f4241e;
+    color: #fff;
+}
+
+.postion-fixed {
+    position: fixed;
+}
+
+.gap-27 {
+    gap: 27px;
+}
+
+/* hero section property */
+.hero-background {
+    background-color: #FBF3EA;
+    min-height: 783PX;
+    width: 100%;
+    border-radius: 0px 0px 157px 0px;
+}
+
+.peperuney-pizza {
+    max-width: 644px;
+    min-height: 566px;
+    bottom: 0%;
+    left: 0%;
+}
+
+.postion-relative {
+    position: relative;
+}
+
+.postion-absolute {
+    position: absolute;
+}
+
+.est-two {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #02714D;
+
+}
+.peperuney {
+    font-family: 'YourFont', cursive;
+    font-size: 159px;
+    /* line-height: 159px; */
+    font-weight: bold;
+    color: #1D8D49;
+    text-shadow: -5px 5px 0px #000,-10px 10px 0px #000;
+}
+.pizza{
+    font-weight: 600;
+    font-size: 59px;
+    color: #1D8D49;
+    text-shadow: -5px 5px 0px #000, -10px 10px 0px #000;
+    /* line-height: 65px; */
+}
+.best-thing{
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 57px;
+    color: black;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.runey {
+    color: #DA291C;
+}
+
+.pt-179 {
+    padding-top: 179px;
+}
+
+
+@media (max-width: 1200px) {
+
+    /* header section property */
+    .menubar {
+        width: 40px;
+        height: 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 4%;
+        transform: translatey(-50%);
+        top: 50%;
+        z-index: 4;
+    }
+
+    .menubar span {
+        height: 7px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    .nav-item {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        transition: all 300ms linear;
+        left: -100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .show {
+        left: 0;
+    }
+}
